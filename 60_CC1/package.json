@@ -1,0 +1,16 @@
+{
+  "name": "60_cc1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fabric-chaincode-node server --chaincode-address 0.0.0.0:7052 --chaincode-id=cc4:cfa3c1bef3aa65559dac06ae2c41a807375c027ce2f57180d1a21fd9c7f4dcf9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4"
+  }
+}

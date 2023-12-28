@@ -1,0 +1,16 @@
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+
+# Coverage directory used by tools like istanbul
+coverage
+borrame
+# Dependency directories
+node_modules/
+jspm_packages/
+package-lock.json
+istio*
+# Compiled TypeScript files
+dist
+

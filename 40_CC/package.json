@@ -1,0 +1,19 @@
+{
+  "name": "40_cc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fabric-chaincode-node server --chaincode-address=0.0.0.0:9999 --chaincode-id=mycc:4f41806df202d32bc51b8ec7fa59a39cf0b37bf41f09da5c290f52fc2b350092"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "cross-var": "^1.1.0",
+    "dotenv": "^16.3.1",
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4"
+  }
+}
