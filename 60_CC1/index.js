@@ -9,6 +9,12 @@ class SmartContract2 extends Contract {
     async Ping(ctx) {
         return "Pong SmartContract2 modificado";
     }
+    async Ping2(ctx) {
+        return "Pong SmartContract2 modificado 2";
+    }
+    async Ping3(ctx) {
+        return "Pong SmartContract2";
+    }
     async Store(ctx, key, value) {
         await ctx.stub.putState(key, Buffer.from(value));
     }

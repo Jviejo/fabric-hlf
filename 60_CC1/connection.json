@@ -1,5 +1,5 @@
 {
-  "address": "cc4:7052",
+  "address": "cc40:7052",
   "dial_timeout": "10s",
   "tls_required": false
 }

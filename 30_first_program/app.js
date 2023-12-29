@@ -29,9 +29,9 @@ async function main() {
     })
 
     const channel = await gateway.getNetwork("demo")
-    const contract = channel.getContract("cc4", "SmartContract2");
+    const contract = channel.getContract("cc40", "SmartContract2");
 
-    const results = await contract.evaluate("Ping")
+    const results = await contract.evaluate("Ping3")
     const r = Buffer.from(results, 'utf8').toString()
 
     console.log(r)

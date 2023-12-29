@@ -1,8 +1,8 @@
 # remove the code.tar.gz chaincode.tgz if they exist
 rm code.tar.gz chaincode.tgz
-export CHAINCODE_NAME=cc4
+export CHAINCODE_NAME=cc40
+export CHAINCODE_LABEL=cc40
 export ORG1=../00_hlf_network/org1.yaml
-export CHAINCODE_LABEL=cc4
 cat << METADATA-EOF > "metadata.json"
 {
     "type": "ccaas",
